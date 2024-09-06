@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olimpiadas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Atletas do Brasil</h1>
+    </header>
+    <main>
+        <!--barra de pesquisa-->
+        <section>
+            <input type="text" placeholder="digite o nome do atleta ou esporte" id="campo-pesquisa">
+            <button onclick="pesquisar()">pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- pesquisa do rebeca-->
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Rebeca Andrade</a>
+                </h2>
+                <p class="descrição-meta"> Rebeca Andrade é .... ícone do esporte nacional</p>
+                <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Mais informações</a>
+            </div>
+            <!--pesquisa rayssa-->
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Rayssa Leal</a>
+                </h2>
+                <p class="descrição-meta"> Rayssa Leal, .... e inspira milhões de jovens</p>
+                <a href="https://pt.wikipedia.org/wiki/Rayssa_Leal" target="_blank">Mais informações</a>
+            </div>
+            <!--pesquisa Beatriz-->
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Beatriz Souza</a>
+                </h2>
+                <p class="descrição-meta"> Beatriz Souza, .... as melhores do mundo</p>
+                <a href="https://pt.wikipedia.org/wiki/Beatriz_Souza" target="_blank">Mais informações</a>
+            </div>
+        </section>
+        <main>
+            <footer>
+                <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
+                <p>Entre em contato pelo email: guilherme@atletas.com.br</p>
+            </footer>
+            <script src="dados.js"></script>
+            <script src="app.js"></script>
+</body>
+
+</html>
